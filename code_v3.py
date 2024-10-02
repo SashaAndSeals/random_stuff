@@ -1,8 +1,8 @@
 import math
 import random
-
+# v KEEP THIS LINE IN ITS POSITION
 PASSWORD = None
-
+# ^ KEEP THIS LINE IN ITS POSITION
 letters = {"a": [47, 79, 13, 18, 33, 85, 89], "b": [4, 56, 107, 5, 35, 83, 97],
            "c": [20, 55, 24, 27, 29, 48, 112, 6, 17, 58, 96, 98], "d": [105, 110, 66], "e": [63, 68, 99],
            "f": [87, 26, 9, 114, 100], "g": [32, 64], "h": [1, 2, 72, 80, 108, 67], "i": [77, 49, 53], "j": [31],
