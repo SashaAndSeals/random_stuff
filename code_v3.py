@@ -71,7 +71,7 @@ def decode(data_in):
     return data_out
 
 
-file_ = open("./code_v2.py", "r")
+file_ = open("./"+__file__+".py", "r")
 file_data = file_.read().splitlines()
 file_.close()
 del file_
@@ -81,7 +81,7 @@ if PASSWORD is None:
     file_write = ""
     for i in range(len(file_data)):
         file_write += file_data[i] + "\n"
-    file_ = open("./code_v2.py", "w")
+    file_ = open("./"+__file__+".py", "w")
     file_.write(file_write)
     file_.close()
     del file_
@@ -104,7 +104,7 @@ while 1:
         file_write = ""
         for i in range(len(file_data)):
             file_write += file_data[i] + "\n"
-        file_ = open("./code_v2.py", "w")
+        file_ = open("./"+__file__+".py", "w")
         file_.write(file_write)
         file_.close()
         del file_
