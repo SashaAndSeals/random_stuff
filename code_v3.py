@@ -94,7 +94,7 @@ while 1:
     operation = input("ENCODE, DECODE OR RESET PASSWORD? ").lower()
     while operation != "encode" and operation != "decode" and operation != "reset password":
         print("PLEASE TYPE IN 'ENCODE', 'DECODE' OR 'RESET PASSWORD' (WITHOUT THE ')")
-        operation = input("ENCODE OR DECODE? ").lower()
+        operation = input("ENCODE, DECODE OR RESET PASSWORD? ").lower()
     if operation == "encode":
         print(encode(input("MESSAGE TO ENCODE: ")))
     elif operation == "decode":
